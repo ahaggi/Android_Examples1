@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.haji.examples1">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".parcelable.PersonActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".DefaultCalBcks_og_Toast_Activity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".ShowItemsActivity"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/Theme.AppCompat.Light" />
+        <activity
+            android:name=".TextValidationActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".AsyncUsageActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".AsyncUsage2Activity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".TelOgSmsActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".ImplicitIntentActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".inflate.MyLayoutInflator"
+            android:parentActivityName=".MainActivity" />
+
+
+    </application>
+
+</manifest>

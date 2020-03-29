@@ -1,0 +1,38 @@
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".SimpleLayoutActivity">
+
+    <item
+        android:id="@+id/personActivity_item"
+        android:title="Person Activity"
+        android:orderInCategory="3"/>
+    <item
+        android:id="@+id/defaultCalBcks_og_Toast_Activity_item"
+        android:title="DefaultCalBcks og Toast_Activity"
+        android:orderInCategory="1"/>
+    <item
+        android:id="@+id/showItemsActivity_item"
+        android:title="Show Items Activity"
+        android:orderInCategory="2"/>
+    <item
+        android:id="@+id/tom1"
+        android:title="tom"
+        android:orderInCategory="4"/>
+    <item
+        android:id="@+id/asyncUsageActivity_item"
+        android:title="Async Usage Activity"
+        android:orderInCategory="5"/>
+    <item
+        android:id="@+id/telOgSms"
+        android:title="telOgSms"
+        android:orderInCategory="6"/>
+    <item
+        android:id="@+id/implicit_Intent"
+        android:title="Implicit Intent"
+        android:orderInCategory="7"/>
+    <item
+        android:id="@+id/inflator"
+        android:title="tom"
+        android:orderInCategory="8"/>
+</menu>
