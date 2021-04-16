@@ -12,6 +12,11 @@ import com.example.haji.examples1.R
 import kotlinx.android.synthetic.main.activity_layout_inflator.*
 
 class MyLayoutInflator : Activity() {
+        //*****************************************************************************************************
+        // you can find a better explaination at the article: Understanding Android’s LayoutInflater.inflate()
+        // https://www.bignerdranch.com/blog/understanding-androids-layoutinflater-inflate/
+        //
+        //*****************************************************************************************************
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
